@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
 /* main/static/main/css/style.css */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #333;
-    background-color: #f4f4f9;
+    color: #2c3e50;
+    background-color: #ecf0f1;
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #282c34;
+    background-color: #3498db;
     color: white;
     padding: 1em 0;
     margin-bottom: 2em;
@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #61dafb;
+    color: #2980b9;
 }
 
 .hero {
@@ -63,6 +63,7 @@ nav ul li a:hover {
     color: white;
     text-align: center;
     padding: 20px;
+    background-color: #3498db;
 }
 
 .hero h2 {
@@ -72,7 +73,7 @@ nav ul li a:hover {
 
 .hero p {
     font-size: 1.2em;
-    color: #282c34;
+    color: #ecf0f1;
 }
 
 main {
@@ -83,7 +84,7 @@ main {
 }
 
 footer {
-    background-color: #282c34;
+    background-color: #34495e;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -99,8 +100,8 @@ footer p {
 
 h2 {
     font-size: 2em;
-    color: #282c34;
-    border-bottom: 2px solid #61dafb;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
 }
@@ -135,6 +136,7 @@ h2 {
 .projects li h3 {
     margin-top: 0;
 }
+
 .projects li p {
     text-align: justify;
     font-size: 17px;
@@ -159,7 +161,7 @@ h2 {
 
 .contact form button {
     padding: 0.7em;
-    background-color: #61dafb;
+    background-color: #3498db;
     color: white;
     border: none;
     border-radius: 4px;
@@ -169,17 +171,16 @@ h2 {
 }
 
 .contact form button:hover {
-    background-color: #282c34;
+    background-color: #2980b9;
 }
 
-/* main/static/main/css/style.css */
 .about {
     text-align: center;
     padding: 2em 0;
 }
 
 #about {
-    background-color: #61dafb;
+    background-color: #3498db;
     color: white;
     border: none;
     padding: 0.7em 1.5em;
@@ -191,32 +192,33 @@ h2 {
 }
 
 #about:hover {
-    background-color: #282c34;
+    background-color: #2980b9;
 }
 
 .about h2 {
     font-size: 2em;
-    color: #282c34;
+    color: #34495e;
     margin-bottom: 0.5em;
 }
 
 #info {
     font-size: 1.2em;
-    color: #333;
+    color: #2c3e50;
     margin-bottom: 1em;
 }
+
 .social-links a {
     margin: 0 10px; /* Adjust the margin as needed */
-    color: #e8e7e7; /* Default color */
+    color: #ecf0f1; /* Default color */
     text-decoration: none; /* Remove underline */
     font-size: 24px; /* Adjust the size as needed */
     transition: color 0.3s ease; /* Smooth color transition */
 }
 
 .social-links a:hover {
-    color: #1da1f2; /* Twitter blue, you can adjust this for different icons */
+    color: #3498db; /* Adjust this for different icons if needed */
 }
 
 .social-links a:visited {
-    color: #e8e7e7; /* Keep the default color for visited links */
+    color: #ecf0f1; /* Keep the default color for visited links */
 }
